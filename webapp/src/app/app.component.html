@@ -1,13 +1,44 @@
-<nav class="navbar navbar-inverse">
-  <a class="navbar-brand"> Unipet </a>
-</nav>
+<html>
 
-<div class="container">
-<h1>
-  Welcome to {{ title }}!
-  </h1>
-  
-</div>
+<body>
+  <nav class="navbar topbar sticky-top">
+    <a class="navbar-brand" routerLink='/home'>
+      <img src="/assets/logo.png" alt="">
+    </a>
+    <ul class="nav mr-auto list-inline">
+        <li class="list-inline-item">
+          <a href="#">Products</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">News</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Careers</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">About</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <ul class="nav ml-auto list-inline">
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fa fa-map-marker" style="font-size:24px"></i>
+            </a>
+          </li>
+        </ul>
+  </nav>
+  <router-outlet></router-outlet>
+
+
+  <!-- <footer>
+      All Rights Reserverd © by unipet.com.pk | Linkedin | Twitter | Facebook | Google+ | Stumbleupon | Behance | WordPress | Wix | Blogger | Weebly | Youtube | Pinterest
 
 
 
+    </footer> -->
+</body>
+
+</html>

@@ -1,4 +1,28 @@
-.navbar{
+.topbar{
+    background-color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.navigationbar{
     background-color: #3A449C;
-    color: white;
+}
+a{
+    color: #3A449C !important;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(29, 200, 252) !important;
+    
+}
+img{
+    width: 225px;
+}
+i{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.nav{
+    display:inline-block !important;
 }
